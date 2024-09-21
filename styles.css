@@ -38,6 +38,7 @@ body {
     overflow-x: hidden; /* Evita que el contenido desborde horizontalmente */
 }
 
+
 .container {
     position: fixed;
     top: 0;
@@ -185,6 +186,7 @@ main {
 
 .section_contenedor_general{
     color: var(--color-textojuego);
+    gap: 10px;
 
 }
 

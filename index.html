@@ -6,6 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inicio</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="flor.css">
+    <style>
+        .section_contenedor_general p {
+            margin-bottom: 20px; /* Espacio debajo del texto */
+        }
+
+        .Resultado {
+            margin-top: 20px; /* Espacio encima del botón */
+        }
+
+        .container_botonn {
+            padding: 10px 20px; /* Tamaño del botón */
+            font-size: 16px;
+        }
+
+        .alerta {
+            margin-top: 10px; /* Espacio entre el botón y el mensaje emergente */
+        }
+    </style>
 </head>
 
 <body>
@@ -27,14 +46,29 @@
         <section class="section_contenedor">
             <div class="section_contenedor_general">
                 <p >Proximamente... </p>
+                <section class="Resultado">
+                
+                <button id="mibotn" class="container_botonn">Haz clic aquí</button>
+                </section>
                 <p class="alerta">na xd selecciona arriba xd</p>
             </div>
-
-
-        </section>
-
         
     </main>
+    <main class="Contenedor">
+        <canvas id="Flor" class="Flor" width="800" height="600"></canvas>
+
+        <div class="Texto">
+            <h2 id="Text"></h2>
+        </div>
+
+    </main>
+
+    <script src="dis.js"></script>
+    <script>
+        document.getElementById("mibotn").addEventListener("click", function() {
+            alert("Feliz 21 de septiembre 🌻💐🌻");
+        });
+    </script>
 
 </body>
 
